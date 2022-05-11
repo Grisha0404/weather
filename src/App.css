@@ -1,9 +1,9 @@
 .App {
-  width: 100vh;
   display: flex;
-  height: 50vh;
+  height: 100vh;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: center;
+  background: linear-gradient(transparent 80px, #1976d2);
 }
+

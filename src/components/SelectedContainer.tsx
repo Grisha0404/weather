@@ -10,7 +10,7 @@ export const SelectedContainer = () => {
         if (title.trim() === '') {
             dispatch(setErrorAC(true))
         } else {
-            dispatch(getWeatherTC(title, false))
+            dispatch(getWeatherTC(title))
         }
     }
     return (

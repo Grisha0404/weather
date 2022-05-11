@@ -1,4 +1,5 @@
 import React, {useEffect, useState} from 'react';
+import style from './weather.module.css'
 
 export const DataBlock = () => {
     const [data, setData] = useState(new Date())
@@ -13,8 +14,8 @@ export const DataBlock = () => {
         }
     })
     return (
-        <div>
-            <div>Время:
+        <div className={style.time}>
+            <div>
                 <span>{nullClock(data.getHours())}</span>:
                 <span>{nullClock(data.getMinutes())}</span>:
                 <span>{nullClock(data.getSeconds())}</span>

@@ -11,6 +11,7 @@ export const SelectedContainer = () => {
             dispatch(setErrorAC(true))
         } else {
             dispatch(getWeatherTC(title))
+            dispatch(getWeatherTC(title))
         }
     }
     return (

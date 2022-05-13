@@ -3,9 +3,9 @@ import style from "./weather.module.css";
 import {DataBlock} from "./DataBlock";
 
 type CityBlockType = {
-    cityName?: string,
-    country?: string,
-    icon?: string,
+    cityName: string,
+    country: string,
+    icon: string,
 }
 
 export const CityBlock: React.FC<CityBlockType> = ({cityName, country, icon}) => {

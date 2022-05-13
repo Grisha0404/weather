@@ -6,7 +6,7 @@ export const DataBlock = () => {
 
     const nullClock = (num: number) => num < 10 ? '0' + num : num;
     useEffect(() => {
-       const intervalClock = setTimeout(() => {
+        const intervalClock = setTimeout(() => {
             setData(new Date)
         }, 1000)
         return () => {

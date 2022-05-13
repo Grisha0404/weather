@@ -8,9 +8,8 @@ export const SelectedContainer = () => {
 
     const clickHandler = (title: string) => {
         if (title.trim() === '') {
-            dispatch(setErrorAC(true))
+            dispatch(setErrorAC('Please, enter a city name!'))
         } else {
-            dispatch(getWeatherTC(title))
             dispatch(getWeatherTC(title))
         }
     }

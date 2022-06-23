@@ -1,7 +1,8 @@
 import React from 'react';
 import {SelectedCity} from "./SelectedCity";
-import {getWeatherTC, setErrorAC} from "../redux/weather-reducer";
 import {useDispatch} from "react-redux";
+import {getWeatherTC} from "../../redux/thunk";
+import {setErrorAC} from "../../redux/actions";
 
 export const SelectedContainer = () => {
     const dispatch = useDispatch()

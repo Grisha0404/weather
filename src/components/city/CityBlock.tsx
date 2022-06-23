@@ -1,6 +1,6 @@
 import React from 'react';
-import style from "./weather.module.css";
-import {DataBlock} from "./DataBlock";
+import style from "../../pages/weather/weather.module.css";
+import {DataBlock} from "../data/DataBlock";
 
 type CityBlockType = {
     cityName: string,

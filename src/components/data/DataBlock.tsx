@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import style from './weather.module.css'
+import style from '../../pages/weather/weather.module.css'
 
 export const DataBlock = () => {
     const [data, setData] = useState(new Date())

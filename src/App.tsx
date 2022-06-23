@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import {TitleForm} from "./components/TitleForm";
-import {WeatherContainer} from "./components/WetherContainer";
-import {SelectedContainer} from "./components/SelectedContainer";
+import {TitleForm} from "./components/title/TitleForm";
+import {WeatherContainer} from "./pages/weather/WeatherContainer";
+import {SelectedContainer} from "./components/city/SelectedContainer";
 
 function App() {
     return (

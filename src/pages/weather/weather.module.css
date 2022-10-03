@@ -1,0 +1,61 @@
+.weatherContainer {
+    margin: 20px;
+    background-color: rgb(25 86 210 / 0%);
+    display: flex;
+    width: 400px;
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 1px 4px 0 rgb(52 50 50 / 75%);
+    border-radius: 20px;
+}
+
+.selectedContainer {
+    background-color: rgb(25 86 210 / 0%);
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 1px 4px 0 rgb(52 50 50 / 75%);
+    border-radius: 20px;
+}
+
+.titleForm {
+    font-family: serif;
+    font-size: xx-large;
+    margin: 20px;
+    color: #1976d2;
+}
+
+.infoBlock {
+    height: 100vh;
+    margin: 15px;
+}
+
+.cityBox {
+    display: flex;
+    font-size: x-large;
+    font-family: cursive;
+    color: #1976d2;
+    justify-content: space-between;
+}
+
+.cityBox img {
+    height: 50px;
+}
+
+.temp {
+    text-align: center;
+    font-size: 9ex;
+    font-family: cursive;
+    color: #1976d2;
+}
+
+.time {
+    font-size: x-large;
+    font-family: cursive;
+    color: #1976d2;
+}

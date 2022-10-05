@@ -4,7 +4,7 @@ import style from '../../pages/weather/weather.module.css'
 export const TitleForm = () => {
     return (
         <div className={style.titleForm}>
-            <h3>Прогноз погды </h3>
+            <h2>Прогноз погды </h2>
         </div>
     );
 };

@@ -36,7 +36,7 @@ export const SelectedCity = (props: SelectedCityType) => {
                     noValidate
                     autoComplete="off"
                 >
-                    <TextField value={title} id="outlined-basic" label="Поиск города.." variant="outlined"
+                    <TextField value={title} id="outlined-basic" label="Введите город.." variant="outlined"
                                onChange={changeHandler} onKeyPress={keyPress}/>
                 </Box>
             </div>

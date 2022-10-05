@@ -17,8 +17,9 @@ export const WeatherContainer = () => {
     }
 
     return (
-        <div className={style.weatherContainer}>
+        <div>
             {weathers &&
+            <div className={style.weatherContainer}>
                 <div className={style.infoBlock}>
                     <CityBlock cityName={weathers.name} country={weathers.sys.country}
                                icon={weathers.weather[0].icon}/>
@@ -26,6 +27,7 @@ export const WeatherContainer = () => {
                     <InfoBlock speed={weathers.wind.speed} humidity={weathers.main.humidity}
                                description={weathers.weather[0].description}/>
                 </div>
+            </div>
             }
             <ErrorSnackbar error={error}/>
         </div>
